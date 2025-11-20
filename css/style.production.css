@@ -25,6 +25,9 @@ body {
     font-weight: 300;
     font-size: 16px;
     line-height: 1.6;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 h1 {
@@ -302,6 +305,17 @@ button:hover, button:focus, .button:hover, button:focus {
 /* ----- layout styling ------ */
 
 /* header layout */
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  
+}
 
 .page-header {
     display: -webkit-box;
