@@ -25,6 +25,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     line-height: 1.6;
+    justify-content: center;
 }
 
 h1 {
@@ -206,6 +207,13 @@ button:hover, button:focus, .button:hover, button:focus {
 /* ----- layout styling ------ */
 
 /* header layout */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
 
 .page-header {
     display: flex;
